@@ -19,7 +19,7 @@ def parse_log(filename):
 
 def main():
 
-	parsed_list = parse_log('/home/akolesnikov/syslog.1')
+	parsed_list = parse_log('/var/log/syslog.1')
 
 	con = sqlite3.connect('testsyslog.db')
 
